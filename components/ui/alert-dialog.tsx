@@ -2,40 +2,44 @@
 
 import * as React from 'react';
 
-// Placeholder component until we properly fix the @radix-ui/react-alert-dialog dependency
-const AlertDialog = ({ children }: { children: React.ReactNode }) => {
+interface DialogProps {
+  children: React.ReactNode;
+  className?: string;
+}
+
+const AlertDialog: React.FC<DialogProps> = ({ children }) => {
   return <div>{children}</div>;
 };
 
-const AlertDialogTrigger = ({ children }: { children: React.ReactNode }) => {
+const AlertDialogTrigger: React.FC<DialogProps> = ({ children }) => {
   return <button>{children}</button>;
 };
 
-const AlertDialogContent = ({ children }: { children: React.ReactNode }) => {
+const AlertDialogContent: React.FC<DialogProps> = ({ children }) => {
   return <div className="fixed inset-0 z-50 flex items-center justify-center">{children}</div>;
 };
 
-const AlertDialogHeader = ({ children }: { children: React.ReactNode }) => {
+const AlertDialogHeader: React.FC<DialogProps> = ({ children }) => {
   return <div className="mb-4">{children}</div>;
 };
 
-const AlertDialogFooter = ({ children }: { children: React.ReactNode }) => {
+const AlertDialogFooter: React.FC<DialogProps> = ({ children }) => {
   return <div className="flex justify-end space-x-2">{children}</div>;
 };
 
-const AlertDialogTitle = ({ children }: { children: React.ReactNode }) => {
+const AlertDialogTitle: React.FC<DialogProps> = ({ children }) => {
   return <h2 className="text-lg font-semibold">{children}</h2>;
 };
 
-const AlertDialogDescription = ({ children }: { children: React.ReactNode }) => {
+const AlertDialogDescription: React.FC<DialogProps> = ({ children }) => {
   return <p className="text-sm text-gray-500">{children}</p>;
 };
 
-const AlertDialogAction = ({ children }: { children: React.ReactNode }) => {
+const AlertDialogAction: React.FC<DialogProps> = ({ children }) => {
   return <button className="px-4 py-2 bg-primary text-white rounded">{children}</button>;
 };
 
-const AlertDialogCancel = ({ children }: { children: React.ReactNode }) => {
+const AlertDialogCancel: React.FC<DialogProps> = ({ children }) => {
   return <button className="px-4 py-2 border rounded">{children}</button>;
 };
 
