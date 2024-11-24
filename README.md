@@ -24,7 +24,7 @@ Um portfolio moderno e interativo construído com Next.js, TypeScript e Tailwind
 
 1. Clone o repositório:
 \`\`\`bash
-git clone https://github.com/seu-usuario/nexusportfolio.git
+git clone https://github.com/alwayspalaye/nexusportfolio.git
 \`\`\`
 
 2. Instale as dependências:
