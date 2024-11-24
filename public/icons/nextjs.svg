@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+    <defs>
+        <circle id="path-1" cx="128" cy="128" r="128"></circle>
+        <linearGradient x1="55.6325605%" y1="56.3850422%" x2="83.2279093%" y2="96.0801119%" id="nextjsLinearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="49.9534722%" y2="73.4375%" id="nextjsLinearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g mask="url(#mask-2)">
+            <circle fill="#000000" cx="128" cy="128" r="128"></circle>
+            <path d="M212.6336,224.028444 L98.3352889,76.8 L98.3352889,76.8 L98.3352889,176.48 L98.3352889,176.48 L129.674667,176.48 L129.674667,122.857778 L212.6336,224.028444 L212.6336,224.028444 Z" fill="url(#nextjsLinearGradient-3)"></path>
+            <path d="M129.674667,176.48 L98.3352889,176.48 L98.3352889,76.8 L129.674667,76.8 M169.631289,76.8 L169.631289,176.48 L138.292622,176.48 L138.292622,76.8" fill="url(#nextjsLinearGradient-4)"></path>
+        </g>
+    </g>
+</svg>
