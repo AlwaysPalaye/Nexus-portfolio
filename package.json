@@ -36,6 +36,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.4",
+    "critters": "^0.0.23",
     "firebase": "^10.8.0",
     "framer-motion": "^11.11.17",
     "lucide-react": "^0.344.0",
