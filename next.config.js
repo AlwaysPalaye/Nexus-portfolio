@@ -7,8 +7,10 @@ const nextConfig = {
   images: { unoptimized: true },
   swcMinify: true,
   experimental: {
-    optimizeCss: true
+    optimizeCss: true,
   },
+  // Force new deploy
+  poweredByHeader: false,
 };
 
 module.exports = nextConfig;
