@@ -93,4 +93,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Willian Marques - [@alwayspalaye](https://www.linkedin.com/in/marqueswillian/)
 
-Link do Projeto: [https://github.com/alwayspalaye/nexusportfolio](https://github.com/alwayspalaye/nexusportfolio)
+Link do Projeto: [https://github.com/alwayspalaye/nexusportfolio]([https://github.com/alwayspalaye/nexusportfolio](https://nexus-portfolio-rdwjalg9w-alwayspalayes-projects.vercel.app/))
