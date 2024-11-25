@@ -7,8 +7,7 @@ const nextConfig = {
   images: { unoptimized: true },
   swcMinify: true,
   experimental: {
-    optimizeCss: true,
-    legacyBrowsers: false,
+    optimizeCss: true
   },
 };
 
